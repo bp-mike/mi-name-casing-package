@@ -1,3 +1,12 @@
+# Mi Sentence case package
+
+This npm package  converts strings to sentence case
+
+## Installation
+
+Use the package manager [npm](https://npmjs.com).
+
+```sh
 ## Usage
 
 npm install mi-name-casing
