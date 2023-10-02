@@ -1,7 +1,12 @@
-console.log("hello world");
-
 module.exports = {
-    sayHello: () => {
-        console.log('say hello !!');
-    }
-}
+  toSentenceCase: (str) => {
+    if (!str || typeof str !== "string") return "";
+    return str
+      .toLowerCase()
+      .split(" ")
+      .map(function (word) {
+        return word.charAt(0).toUpperCase() + word.slice(1);
+      })
+      .join(" ");
+  },
+};
